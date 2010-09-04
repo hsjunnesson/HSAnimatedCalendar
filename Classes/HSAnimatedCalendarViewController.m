@@ -45,16 +45,16 @@
   configuration_ = [[NSDictionary dictionaryWithContentsOfFile:path] retain];
   
   // Cache the images
-  images_ = [[NSArray alloc] initWithObjects:[UIImage imageNamed:[NSString stringWithFormat:@"%@_0", configPrefix_]],
-             [UIImage imageNamed:[NSString stringWithFormat:@"%@_1", configPrefix_]],
-             [UIImage imageNamed:[NSString stringWithFormat:@"%@_2", configPrefix_]],
-             [UIImage imageNamed:[NSString stringWithFormat:@"%@_3", configPrefix_]],
-             [UIImage imageNamed:[NSString stringWithFormat:@"%@_4", configPrefix_]],
-             [UIImage imageNamed:[NSString stringWithFormat:@"%@_5", configPrefix_]],
-             [UIImage imageNamed:[NSString stringWithFormat:@"%@_6", configPrefix_]],
-             [UIImage imageNamed:[NSString stringWithFormat:@"%@_7", configPrefix_]],
-             [UIImage imageNamed:[NSString stringWithFormat:@"%@_8", configPrefix_]],
-             [UIImage imageNamed:[NSString stringWithFormat:@"%@_9", configPrefix_]],
+  images_ = [[NSArray alloc] initWithObjects:[UIImage imageNamed:[NSString stringWithFormat:@"%@_0.png", configPrefix_]],
+             [UIImage imageNamed:[NSString stringWithFormat:@"%@_1.png", configPrefix_]],
+             [UIImage imageNamed:[NSString stringWithFormat:@"%@_2.png", configPrefix_]],
+             [UIImage imageNamed:[NSString stringWithFormat:@"%@_3.png", configPrefix_]],
+             [UIImage imageNamed:[NSString stringWithFormat:@"%@_4.png", configPrefix_]],
+             [UIImage imageNamed:[NSString stringWithFormat:@"%@_5.png", configPrefix_]],
+             [UIImage imageNamed:[NSString stringWithFormat:@"%@_6.png", configPrefix_]],
+             [UIImage imageNamed:[NSString stringWithFormat:@"%@_7.png", configPrefix_]],
+             [UIImage imageNamed:[NSString stringWithFormat:@"%@_8.png", configPrefix_]],
+             [UIImage imageNamed:[NSString stringWithFormat:@"%@_9.png", configPrefix_]],
              nil];
   
   if ([images_ containsObject:nil])
