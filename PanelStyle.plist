@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Countdown</key>
+	<false/>
+	<key>CountdownDate</key>
+	<date>2010-10-19T22:00:00Z</date>
+	<key>transitionType</key>
+	<string>push</string>
+	<key>transitionSubType</key>
+	<string>bottom</string>
+	<key>transitionDuration</key>
+	<real>0.25</real>
+</dict>
+</plist>
