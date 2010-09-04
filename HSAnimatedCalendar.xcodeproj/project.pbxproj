@@ -29,6 +29,7 @@
 		52237EC212293B6A00C2AD5F /* CountDown_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 52237EB812293B6A00C2AD5F /* CountDown_8.png */; };
 		52237EC312293B6A00C2AD5F /* CountDown_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 52237EB912293B6A00C2AD5F /* CountDown_9.png */; };
 		52237EFE1229428B00C2AD5F /* FeltBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 52237EFD1229428B00C2AD5F /* FeltBackground.png */; };
+		5294E55E1232487900078605 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 5294E55D1232487900078605 /* README.markdown */; };
 		52D073981226F0D700E80427 /* PanelStyle.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52D073971226F0D700E80427 /* PanelStyle.plist */; };
 		52D073B41226F7E700E80427 /* PanelStyle_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D073AA1226F7E700E80427 /* PanelStyle_0.png */; };
 		52D073B51226F7E700E80427 /* PanelStyle_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D073AB1226F7E700E80427 /* PanelStyle_1.png */; };
@@ -72,6 +73,7 @@
 		52237EB812293B6A00C2AD5F /* CountDown_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CountDown_8.png; path = CountDown/CountDown_8.png; sourceTree = "<group>"; };
 		52237EB912293B6A00C2AD5F /* CountDown_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CountDown_9.png; path = CountDown/CountDown_9.png; sourceTree = "<group>"; };
 		52237EFD1229428B00C2AD5F /* FeltBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FeltBackground.png; sourceTree = "<group>"; };
+		5294E55D1232487900078605 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		52D073971226F0D700E80427 /* PanelStyle.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PanelStyle.plist; sourceTree = "<group>"; };
 		52D073AA1226F7E700E80427 /* PanelStyle_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PanelStyle_0.png; path = PanelStyle/PanelStyle_0.png; sourceTree = "<group>"; };
 		52D073AB1226F7E700E80427 /* PanelStyle_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PanelStyle_1.png; path = PanelStyle/PanelStyle_1.png; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				5294E55D1232487900078605 /* README.markdown */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -283,6 +286,7 @@
 				52237EC212293B6A00C2AD5F /* CountDown_8.png in Resources */,
 				52237EC312293B6A00C2AD5F /* CountDown_9.png in Resources */,
 				52237EFE1229428B00C2AD5F /* FeltBackground.png in Resources */,
+				5294E55E1232487900078605 /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
