@@ -21,6 +21,9 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 
+#define kCountdown @"Countdown"
+#define kCountdownDate @"CountdownDate"
+
 @interface HSAnimatedCalendarViewController : UIViewController {
  @protected
   NSDictionary *configuration_;
