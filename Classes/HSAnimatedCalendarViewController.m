@@ -118,7 +118,7 @@ int nthDigit(int x, int n) {
       thousandYears = nthDigit(year, 3);
     }
     
-    if (months == 0) {
+    if (month == 0) {
       months = 0;
       tenMonths = 0;
     } else {
@@ -134,7 +134,7 @@ int nthDigit(int x, int n) {
       tenDays = nthDigit(day, 1);
     }
     
-    if (hours == 0) {
+    if (hour == 0) {
       hours = 0;
       tenHours = 0;
     } else {
@@ -142,7 +142,7 @@ int nthDigit(int x, int n) {
       tenHours = nthDigit(hour, 1);
     }
 
-    if (minutes == 0) {
+    if (minute == 0) {
       minutes = 0;
       tenMinutes = 0;
     } else {
@@ -150,7 +150,7 @@ int nthDigit(int x, int n) {
       tenMinutes = nthDigit(minute, 1);
     }
     
-    if (seconds == 0) {
+    if (second == 0) {
       seconds = 0;
       tenSeconds = 0;
     } else {
