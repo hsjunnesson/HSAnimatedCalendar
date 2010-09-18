@@ -88,11 +88,17 @@ int nthDigit(int x, int n) {
   int tenSeconds;
   int seconds;
 
-  BOOL isCountdown = [[configuration_ objectForKey:@"Countdown"] boolValue];
-
+  BOOL isCountdown = NO;
+  NSDate *target = nil;
+  
+  @synchronized (configuration_) {
+    id temp = [configuration_ objectForKey:kCountdown];
+    if (temp)
+      isCountdown = [(NSNumber*)temp boolValue];
+    target = [configuration_ objectForKey:kCountdownDate];
+  }
+  
   if (isCountdown) {
-    NSDate *target = [configuration_ objectForKey:@"CountdownDate"];
-
     if (!target)
       [NSException raise:@"NullPointerException" format:@"CountdownDate not defined in %@.plist", configPrefix_];
     
@@ -389,6 +395,22 @@ int nthDigit(int x, int n) {
 
 - (void)viewDidUnload {
   [self stopTimer];
+}
+
+#pragma mark -
+#pragma mark State accessors
+
+- (void)setTargetDate:(NSDate*)targetDate {
+  @synchronized (configuration_) {
+    NSMutableDictionary *d = [[NSMutableDictionary alloc] initWithDictionary:configuration_];
+    
+    [d setValue:targetDate forKey:kCountdownDate];
+    [d setValue:[NSNumber numberWithInt:1] forKey:kCountdown];
+    
+    id temp = configuration_;
+    configuration_ = d;
+    [temp release];
+  }
 }
 
 #pragma mark -

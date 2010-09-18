@@ -71,6 +71,9 @@
 // Stops the animating timer
 - (void)stopTimer;
 
+// Sets the target date to |targetDate|. Will automatically set the countdown mode.
+- (void)setTargetDate:(NSDate*)targetDate;
+
 // Returns the specific CATtransition we use to transition between images.
 @property (readonly) CATransition *calendarTransition;
 
